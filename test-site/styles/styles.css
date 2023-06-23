@@ -1,0 +1,40 @@
+
+h1 ,p{
+    margin: auto;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+ul {
+    margin: auto;
+    display: inline-block;
+    text-align: left;
+    color: rgb(255, 255, 255);
+}
+
+div.container {
+    text-align: center;
+}
+html {
+    background-color: rgb(191, 132, 246);
+}
+
+body{
+    width: 600px;
+    margin: auto;
+    padding: auto;
+    background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(252, 70, 107, 1) 100%);
+    border: 5px solid rgb(255, 254, 254);
+}
+
+a{
+    
+    color: rgb(14, 14, 14);
+}
