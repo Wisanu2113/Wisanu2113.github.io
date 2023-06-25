@@ -1,12 +1,12 @@
-
-h1 ,p{
+h1,p {
     margin: auto;
     padding: 20px;
     color: rgb(255, 255, 255);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-img{
+
+img {
     display: block;
     margin: auto;
     width: 50%;
@@ -22,11 +22,12 @@ ul {
 div.container {
     text-align: center;
 }
+
 html {
     background-color: rgb(191, 132, 246);
 }
 
-body{
+body {
     width: 600px;
     margin: auto;
     padding: auto;
@@ -34,7 +35,7 @@ body{
     border: 5px solid rgb(255, 254, 254);
 }
 
-a{
-    
+a {
+
     color: rgb(14, 14, 14);
 }
