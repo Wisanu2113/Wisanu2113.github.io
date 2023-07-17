@@ -1,23 +1,25 @@
-
-p{
+p {
     margin: auto;
     padding: 20px;
     color: rgb(255, 255, 255);
     text-align: left;
     font-family: sans-serif;
 }
-figure{
+
+figure {
     margin: 10px auto;
     padding: 10px auto;
 }
+
 img {
     display: block;
     margin: 10px auto;
-    width: 50%; 
+    width: 50%;
 }
-figcaption{
+
+figcaption {
     margin: 5px auto;
-    padding:5px auto;
+    padding: 5px auto;
     text-align: center;
     font-family: sans-serif;
     font-size: 15px;
@@ -26,17 +28,17 @@ figcaption{
 
 ul {
     margin: auto;
-    
+
     color: rgb(255, 255, 255);
 }
 
-h1{
+h1 {
     margin: 1px auto;
-    padding: 1px auto; 
-    color: rgb(255, 255, 255);    
+    padding: 1px auto;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     text-align: center;
-} 
+}
 
 html {
     background-color: rgba(81, 12, 150, 0.767);
@@ -48,7 +50,7 @@ body {
     padding: auto;
     background: radial-gradient(circle, rgba(63, 94, 251, 0.5) 0%, rgba(252, 70, 107, 0.5) 100%);
     border-radius: 20px;
-   
+
 }
 
 a {
@@ -56,11 +58,12 @@ a {
     color: rgb(14, 14, 14);
 }
 
-#popular{
-    
+#popular {
+
     border: 4px dotted rgb(255, 11, 11);
 
 }
-#heading{
+
+#heading {
     color: rgb(7, 7, 135);
 }

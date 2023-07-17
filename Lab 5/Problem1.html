@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- วิษณุ รั้งกระโทก  643040211-3 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ex2</title>
+    <link rel="stylesheet" href="lab5/styless/wisanu2113">
+    <script type="text/javascript">
+        let number = 0;
+        stringNumber = "";
+        while (true) {
+            let input = prompt("Enter your Positive number");
+            if ((input > 0) && (input % 1 == 0)) {
+                alert(" Found positive integer number");
+                number = input;
+                showPrime(number);
+                break;
+            }
+        }
+        function showPrime(number) {
+            for (let i = 2; i < number; i++) {
+                if (!isPrime(i)) continue; {
+                    stringNumber += i + "   ";
+
+                }
+            }
+
+            alert('Prime number of ' + number + ' : ' + stringNumber);
+        }
+
+        function isPrime(number) {
+            for (let i = 2; i < number; i++) {
+                if (number % i == 0)
+                    return false;
+            }
+            return true;
+        }
+    </script>
+</head>
+
+<body>
+    <div>
+        <h1 class="text1">
+            Write the web app to keep prompting for a positive integer number
+        </h1>
+        <ul>
+            <li class="text">If the entered text is not a positive integer number, then the web app will keep asking for
+                a number
+                until
+                the valid
+                positive integer is entered</li>
+            <li class="text">The sample of app interaction can be viewed at the first part of this video
+                https://youtu.be/6IB1kfpUGfg
+            </li>
+        </ul>
+        <h2 class="text2">Hint:</h2>
+        <h3 class="text">1. You may want to use loop with label</h2>
+            <h3 class="text">2. You may want to use array with push function</h2>
+
+                <h3 class="text">
+                    Found positive integer :
+                    <script>
+                        document.write(number);
+                    </script>
+                </h3>
+                <h3 class="text">
+                    Prime number :
+                    <script>
+                        document.write(stringNumber);
+                    </script>
+                </h3>
+    </div>
+</body>
+
+</html>

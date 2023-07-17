@@ -1,0 +1,29 @@
+  .text1 {
+      font-size: 40px;
+  }
+
+  .text2 {
+      font-size: 30px;
+  }
+
+  .text {
+      font-size: 20px;
+  }
+
+  div {
+      margin: 30;
+  }
+
+  @media screen and (max-width: 450px) {
+      .text1 {
+          font-size: 30px;
+      }
+
+      .text2 {
+          font-size: 20px;
+      }
+
+      .text {
+          font-size: 10px;
+      }
+  }
