@@ -1,0 +1,214 @@
+/* วิษณุ รั้งกระโทก 643040211-3 */
+html {
+    background-color: rgba(81, 12, 150, 0.767);
+    padding-top: 20px;
+}
+
+.text-Content {
+    padding: 10px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.text-Content2 {
+    font-size: 12px;
+    color: #ffffff;
+}
+
+figure {
+    margin: 10px auto;
+    padding: 10px auto;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    width: 50%;
+}
+
+figcaption {
+    margin: 5px auto;
+    padding: 5px auto;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+ul {
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+}
+
+.text-head {
+    margin: 1px auto;
+    padding: 1px auto;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    text-align: center;
+}
+
+html {
+    background-color: rgba(81, 12, 150, 0.767);
+}
+
+body {
+    width: 600px;
+    /* margin: auto;
+    padding: auto; */
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.5) 0%, rgba(252, 70, 107, 0.5) 100%);
+    border-radius: 20px;
+
+}
+
+
+#popular {
+
+    border: 4px dotted rgb(255, 11, 11);
+
+}
+
+/* iPhone SE  */
+@media screen and (max-width: 667px) {
+    html {
+        background-color: rgba(81, 12, 150, 0.767);
+        padding-top: 10px;
+    }
+
+    body {
+        width: 70%;
+        border-radius: 10px;
+        height: 100%;
+        margin-left: 20px;
+    }
+
+    .BoxImage {
+        margin: 0px;
+    }
+
+    .text-head {
+        font-size: 12px;
+        color: #000000;
+    }
+
+    .bovImage {
+        width: 50%;
+        height: 50%;
+    }
+
+    .text-Content {
+        padding-top: 0px;
+        margin: 0;
+        font-size: 16px;
+        color: #000000;
+    }
+
+    .text-Content2 {
+        padding-top: 3px;
+        margin: 0;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    img {
+        display: block;
+        margin: 10px auto;
+        width: 50%;
+    }
+}
+
+/* Ipad air landscape */
+@media screen and (min-width: 1180px) {
+    html {
+        background-color: rgba(81, 12, 150, 0.767);
+        padding-top: 10px;
+    }
+
+    body {
+        width: 40%;
+        border-radius: 10px;
+        height: 100%;
+        margin-left: 140px;
+    }
+
+    .BoxImage {
+        margin: 0px;
+    }
+
+    .text-head {
+
+        font-size: 20px;
+    }
+
+    .bovImage {
+        width: 50%;
+        height: 50%;
+    }
+
+    .text-Content {
+        padding-top: 0px;
+        margin: 0;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+    }
+
+    .text-Content2 {
+        padding-top: 3px;
+        margin: 0;
+        font-size: 13px;
+        color: #ffffff;
+    }
+
+    img {
+        display: block;
+        margin: 10px auto;
+        width: 30%;
+    }
+}
+
+/* Ipad air Portrait */
+@media screen and (max-width: 1000px) {
+    html {
+        background-color: rgba(81, 12, 150, 0.767);
+        padding-top: 10px;
+    }
+
+    body {
+        width: 70%;
+        border-radius: 10px;
+        height: 100%;
+        margin-left: 100px;
+    }
+
+    .BoxImage {
+        margin: 0px;
+    }
+
+    .text-head {
+        font-size: 20px;
+        color: #ffffff;
+    }
+
+    .text-Content {
+        padding-top: 0px;
+        margin: 0;
+        font-size: 16px;
+        color: #ffffff;
+    }
+
+    .text-Content2 {
+        padding-top: 3px;
+        margin: 0;
+        font-size: 14px;
+        color: #ffffff;
+    }
+
+    img {
+        display: block;
+        margin: 10px auto;
+        width: 30%;
+    }
+}

@@ -1,9 +1,11 @@
-p {
-    margin: auto;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-    text-align: left;
-    font-family: sans-serif;
+html {
+    background-color: rgba(81, 12, 150, 0.767);
+    padding-top: 20px;
+}
+.text1 {
+    padding: 10px ;
+    font-size: 16px;
+    color: #ffffff;
 }
 
 figure {
@@ -28,8 +30,8 @@ figcaption {
 
 ul {
     margin: auto;
-
     color: rgb(255, 255, 255);
+    font-size: 16px;
 }
 
 h1 {
@@ -48,15 +50,13 @@ body {
     width: 600px;
     margin: auto;
     padding: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
     background: radial-gradient(circle, rgba(63, 94, 251, 0.5) 0%, rgba(252, 70, 107, 0.5) 100%);
     border-radius: 20px;
 
 }
 
-a {
-
-    color: rgb(14, 14, 14);
-}
 
 #popular {
 
@@ -64,6 +64,43 @@ a {
 
 }
 
-#heading {
-    color: rgb(7, 7, 135);
+
+@media screen and (max-width: 400px) {
+    body{
+      width: 80% ;
+      border-radius: 10px ;
+    }
+        
+    h1 {
+        font-size: 15px;
+    }
+    .text1,ul{
+        font-size: 12px;
+    }
+    .image{
+        height: 60%;
+        width: 60%;
+    }
 }
+@media screen and (max-width: 1000px) {
+    body {
+        width: 80%;
+        border-radius: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    .text1,
+    ul {
+        font-size: 16px;
+    }
+
+    .image {
+        height: 60%;
+        width: 60%;
+    }
+}
+
+    
