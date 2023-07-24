@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- นายวิษณุ รั้งกระโทก  643040211-3 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab5 ex3</title>
+    <style>
+        div {
+            background-color: rgb(22, 169, 243);
+            margin-top: 5px;
+            margin-bottom: 5px;
+            float: left;
+            width: 25%;
+            height: 100px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <script>
+        for (let i = 1; i <= 16; i++) {
+            let myDiv = document.createElement("div");
+            document.body.appendChild(myDiv);
+        }
+
+        function random(number) {
+            return Math.floor(Math.random() * number);
+        }
+
+        function bgChange() {
+            let rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+            return rndCol;
+        }
+
+        let divs = document.querySelectorAll('div');
+        let colors;
+        for (let i = 0; i < divs.length; i++) {
+
+            divs[i].onclick = function (e) {
+                if (i % 2 == 1) {
+                    !colors ? colors = bgChange() : colors;  // ถ้า colors มีสีที่เก็บไว้แล้ว ไม่ต้องเก็บค่าใหม่
+                    e.target.style.backgroundColor = colors;
+
+                } else {
+                    e.target.style.backgroundColor = bgChange();
+                }
+
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
