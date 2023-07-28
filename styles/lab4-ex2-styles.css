@@ -4,6 +4,10 @@ html {
     padding-top: 20px;
 }
 
+a {
+    color: rgb(56, 255, 12);
+}
+
 .text-Content {
     padding: 10px;
     font-size: 16px;
@@ -55,8 +59,7 @@ html {
 
 body {
     width: 600px;
-    /* margin: auto;
-    padding: auto; */
+    margin: auto;
     padding-top: 20px;
     padding-bottom: 10px;
     background: radial-gradient(circle, rgba(63, 94, 251, 0.5) 0%, rgba(252, 70, 107, 0.5) 100%);
@@ -71,144 +74,104 @@ body {
 
 }
 
-/* iPhone SE  */
-@media screen and (max-width: 667px) {
-    html {
-        background-color: rgba(81, 12, 150, 0.767);
-        padding-top: 10px;
-    }
+/* IPad Air Ls*/
+@media screen and (max-width: 1200px) and (orientation: landscape) {
 
     body {
         width: 70%;
-        border-radius: 10px;
-        height: 100%;
-        margin-left: 20px;
-    }
-
-    .BoxImage {
-        margin: 0px;
-    }
-
-    .text-head {
-        font-size: 12px;
-        color: #000000;
-    }
-
-    .bovImage {
-        width: 50%;
-        height: 50%;
     }
 
     .text-Content {
-        padding-top: 0px;
-        margin: 0;
-        font-size: 16px;
-        color: #000000;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 26px;
+
     }
 
     .text-Content2 {
-        padding-top: 3px;
-        margin: 0;
-        font-size: 14px;
-        color: #ffffff;
+        padding: 10px;
+        font-size: 24px;
     }
 
-    img {
-        display: block;
-        margin: 10px auto;
-        width: 50%;
+    .container {
+        padding-right: 20px;
     }
+
+    .Main-container {
+        padding: 30px;
+
+    }
+
 }
 
-/* Ipad air landscape */
-@media screen and (min-width: 1180px) {
-    html {
-        background-color: rgba(81, 12, 150, 0.767);
-        padding-top: 10px;
-    }
-
-    body {
-        width: 40%;
-        border-radius: 10px;
-        height: 100%;
-        margin-left: 140px;
-    }
-
-    .BoxImage {
-        margin: 0px;
-    }
-
-    .text-head {
-
-        font-size: 20px;
-    }
-
-    .bovImage {
-        width: 50%;
-        height: 50%;
-    }
-
-    .text-Content {
-        padding-top: 0px;
-        margin: 0;
-        font-size: 15px;
-        color: rgb(255, 255, 255);
-    }
-
-    .text-Content2 {
-        padding-top: 3px;
-        margin: 0;
-        font-size: 13px;
-        color: #ffffff;
-    }
-
-    img {
-        display: block;
-        margin: 10px auto;
-        width: 30%;
-    }
-}
-
-/* Ipad air Portrait */
-@media screen and (max-width: 1000px) {
-    html {
-        background-color: rgba(81, 12, 150, 0.767);
-        padding-top: 10px;
-    }
+/* IPad Air Pt*/
+@media screen and (max-width: 900px) and (orientation: portrait) {
 
     body {
         width: 70%;
-        border-radius: 10px;
-        height: 100%;
-        margin-left: 100px;
-    }
 
-    .BoxImage {
-        margin: 0px;
-    }
-
-    .text-head {
-        font-size: 20px;
-        color: #ffffff;
     }
 
     .text-Content {
-        padding-top: 0px;
-        margin: 0;
-        font-size: 16px;
-        color: #ffffff;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 26px;
+
     }
 
     .text-Content2 {
-        padding-top: 3px;
-        margin: 0;
-        font-size: 14px;
-        color: #ffffff;
+        padding: 10px;
+        font-size: 24px;
     }
 
-    img {
-        display: block;
-        margin: 10px auto;
-        width: 30%;
+    .container {
+        padding-right: 20px;
     }
+
+}
+
+/* IPhon SE Ls*/
+@media screen and (max-width: 700px) and (orientation: landscape) {
+    body {
+        width: 90%;
+    }
+
+    .text-Content {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+
+    .text-Content2 {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .container {
+        padding-right: 20px;
+    }
+
+}
+
+/* IPhon SE Pt*/
+@media screen and (max-width: 380px) and (orientation: portrait) {
+    body {
+        width: 90%;
+    }
+
+    .text-Content {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 18px;
+    }
+
+    .text-Content2 {
+        padding: 10px;
+        font-size: 18px;
+    }
+
+    .container {
+        padding-right: 20px;
+    }
+
 }
